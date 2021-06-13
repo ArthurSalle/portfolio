@@ -17,7 +17,7 @@ const Header = () => {
         <div className='header--img__wrapper'>
           <StaticImage
             src='../../images/arthur.png'
-            alt="Photo d'Arthur Sallé"
+            alt='Arthur Sallé'
             width={352}
             height={235}
             quality={100}
