@@ -1,0 +1,48 @@
+:root {
+  --color-beige: #f7f6ec;
+  --color-green: #184340;
+  --color-background: #f7f6f2;
+  --color-background-section: rgba(201, 209, 193, 20%);
+  --color-btn: #c9d1c1;
+  --color-btn-hover: #c9d7bb;
+  --color-btn-green-hover: #015a53;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  cursor: default;
+  font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+  height: -webkit-fill-available;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  //-webkit-font-smoothing: subpixel-antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'TT Norms';
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.6;
+  color: var(--color-green);
+  background-color: var(--color-background);
+  width: 100vw;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: none;
+  overflow-x: hidden;
+  position: relative;
+}
+.container {
+  max-width: 1076px;
+  margin: 0 auto;
+  position: relative;
+}
