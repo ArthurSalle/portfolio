@@ -6,6 +6,12 @@
   height: 84px;
   border-radius: 28px;
 
+  @include media('<desktop') {
+    font-size: 40px;
+    width: 226px;
+    height: 74px;
+  }
+
   &--green {
     background-color: var(--color-green);
     color: var(--color-btn);
@@ -21,14 +27,41 @@
 .rotate-first {
   transform-origin: calc(50% + 65px) calc(50% - 10px);
   transform: rotate(-4deg) translate(65px, -10px);
+
+  @include media('<desktop') {
+    transform-origin: calc(50% + 65px) calc(50% - 25px);
+    transform: rotate(-4deg) translate(65px, -25px);
+  }
+  @include media('<tablet') {
+    transform-origin: calc(50% + 20px) calc(50% - 25px);
+    transform: rotate(-4deg) translate(20px, -25px);
+  }
 }
 
 .rotate-second {
   transform-origin: calc(50% - 5px) calc(50% + 25px);
   transform: rotate(3deg) translate(-5px, 25px);
+
+  @include media('<desktop') {
+    transform-origin: calc(50% + 30px) calc(50% - 5px);
+    transform: rotate(3deg) translate(30px, -5px);
+  }
+  @include media('<tablet') {
+    transform-origin: calc(50% + 20px) calc(50% - 4px);
+    transform: rotate(3deg) translate(20px, -4px);
+  }
 }
 
 .rotate-third {
   transform-origin: calc(50% + 65px) calc(50% + 60px);
   transform: rotate(-4.8deg) translate(65px, 60px);
+
+  @include media('<desktop') {
+    transform-origin: calc(50% + 65px) calc(50% + 15px);
+    transform: rotate(-4.8deg) translate(65px, 15px);
+  }
+  @include media('<tablet') {
+    transform-origin: calc(50% + 20px) calc(50% + 17px);
+    transform: rotate(-4.8deg) translate(20px, 17px);
+  }
 }

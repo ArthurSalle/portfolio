@@ -3,17 +3,40 @@
   justify-content: space-between;
   margin-top: 80px;
 
+  @include media('<desktop') {
+    flex-direction: column;
+    margin-top: 54px;
+  }
+
   &--title {
     max-width: 632px;
     margin-top: 96px;
+
+    @include media('<desktop') {
+      max-width: unset;
+      margin-top: 0;
+    }
   }
   &--menu {
     display: flex;
     flex-direction: column;
 
+    @include media('<desktop') {
+      flex-direction: row;
+      margin-top: 64px;
+    }
+    @include media('<tablet') {
+      flex-direction: column;
+      margin-top: 48px;
+    }
+
     &__btn {
       text-align: center;
       margin-top: 16px;
+
+      @include media('<tablet') {
+        margin-top: 80px;
+      }
     }
   }
   &--img__wrapper {
@@ -30,5 +53,9 @@
       height: 100%;
       transform: rotate(-6deg);
     }
+  }
+
+  @include media('<phone') {
+    max-width: 261px;
   }
 }

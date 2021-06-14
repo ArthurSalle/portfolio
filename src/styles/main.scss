@@ -45,4 +45,11 @@ body {
   max-width: 1076px;
   margin: 0 auto;
   position: relative;
+
+  @include media('<desktop') {
+    max-width: 687px;
+  }
+  @include media('<tablet') {
+    max-width: 261px;
+  }
 }
