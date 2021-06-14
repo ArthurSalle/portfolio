@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Title from '../atoms/Title';
 import Button from '../atoms/Button';
+import { Link } from 'gatsby';
 
 const Header = () => {
   return (
@@ -25,9 +26,27 @@ const Header = () => {
           />
         </div>
         <div className='header--menu__btn'>
-          <Button title={'À propos'} className={'btn--green rotate-first'} />
-          <Button title={'Projets'} className={'btn--green rotate-second'} />
-          <Button title={'Contact'} className={'btn--green rotate-third'} />
+          <Button
+            children={
+              <Link to='/' className='btn btn--green rotate-first'>
+                À propos
+              </Link>
+            }
+          />
+          <Button
+            children={
+              <Link to='/' className='btn btn--green rotate-second'>
+                Projets
+              </Link>
+            }
+          />
+          <Button
+            children={
+              <Link to='/' className='btn btn--green rotate-third'>
+                Contact
+              </Link>
+            }
+          />
         </div>
       </div>
     </header>

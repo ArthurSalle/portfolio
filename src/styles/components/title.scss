@@ -7,3 +7,14 @@
     line-height: 1.4;
   }
 }
+
+.h2 {
+  font-size: 61px;
+
+  @include media('<desktop') {
+    font-size: 50px;
+  }
+  @include media('<tablet') {
+    font-size: 40px;
+  }
+}

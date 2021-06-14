@@ -1,0 +1,34 @@
+.section {
+  display: flex;
+
+  &--article {
+    max-width: 537px;
+    text-align: justify;
+  }
+
+  &--media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  &--img__wrapper {
+    position: relative;
+    transform: rotate(3.15deg);
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0;
+      background-color: var(--color-btn);
+      width: 100%;
+      height: 100%;
+      transform: rotate(-2.75deg);
+    }
+  }
+}
+.drop {
+  margin-bottom: 24px;
+}
