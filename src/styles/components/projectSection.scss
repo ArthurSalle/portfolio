@@ -1,0 +1,45 @@
+.project {
+  position: relative;
+  margin: 64px auto;
+
+  @include media('<desktop') {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &--row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    @include media('<desktop') {
+      flex-direction: column;
+    }
+  }
+
+  &--content {
+    max-width: 350px;
+  }
+
+  &--img__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform-origin: center center;
+    transform: rotate(3.15deg) translate(-50%, -50%);
+
+    @include media('<desktop') {
+      position: unset;
+      top: unset;
+      left: unset;
+      transform: rotate(3.15deg);
+    }
+  }
+
+  &--line__small {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-green);
+  }
+}
