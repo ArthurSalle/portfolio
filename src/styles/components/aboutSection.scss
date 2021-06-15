@@ -1,9 +1,24 @@
+.section-color {
+  background-color: var(--color-background-section);
+  margin-top: 96px;
+}
+
 .section {
   display: flex;
 
   @include media('<desktop') {
     flex-direction: column;
     align-items: center;
+  }
+
+  &--reverse {
+    flex-direction: row-reverse;
+    padding: 120px 0;
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &--article {
@@ -22,6 +37,7 @@
       margin-top: 40px;
     }
   }
+
   &--img__wrapper {
     position: relative;
     transform: rotate(3.15deg);
@@ -35,6 +51,21 @@
       width: 100%;
       height: 100%;
       transform: rotate(-2.75deg);
+    }
+  }
+  &--img__reverse {
+    position: relative;
+    transform: rotate(-3.15deg);
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0;
+      background-color: var(--color-btn);
+      width: 100%;
+      height: 100%;
+      transform: rotate(2.75deg);
     }
   }
 }
