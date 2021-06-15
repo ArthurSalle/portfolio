@@ -23,9 +23,10 @@
 
     @include media('<desktop') {
       flex-direction: row;
+      align-items: center;
       margin-top: 64px;
     }
-    @include media('<tablet') {
+    @include media('<landscape') {
       flex-direction: column;
       margin-top: 48px;
     }
@@ -33,10 +34,6 @@
     &__btn {
       text-align: center;
       margin-top: 16px;
-
-      @include media('<tablet') {
-        margin-top: 80px;
-      }
     }
   }
   &--img__wrapper {
@@ -53,9 +50,5 @@
       height: 100%;
       transform: rotate(-6deg);
     }
-  }
-
-  @include media('<phone') {
-    max-width: 261px;
   }
 }

@@ -50,6 +50,6 @@ body {
     max-width: 687px;
   }
   @include media('<tablet') {
-    max-width: 261px;
+    padding: 40px;
   }
 }

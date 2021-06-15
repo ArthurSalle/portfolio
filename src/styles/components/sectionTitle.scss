@@ -1,6 +1,10 @@
 .section--title {
   margin-top: 176px;
   margin-bottom: 64px;
+
+  @include media('<tablet') {
+    margin-top: 0;
+  }
 }
 .section--line {
   margin-top: 32px;
