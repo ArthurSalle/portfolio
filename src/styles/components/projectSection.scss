@@ -7,6 +7,10 @@
     justify-content: space-between;
     align-items: center;
   }
+  @include media('<tablet') {
+    flex-direction: column;
+    margin: 40px auto;
+  }
 
   &--row {
     display: flex;
@@ -20,6 +24,10 @@
 
   &--content {
     max-width: 350px;
+
+    @include media('<tablet') {
+      max-width: 460px;
+    }
   }
 
   &--img__wrapper {
@@ -34,6 +42,9 @@
       top: unset;
       left: unset;
       transform: rotate(3.15deg);
+    }
+    @include media('<tablet') {
+      margin-top: 48px;
     }
   }
 

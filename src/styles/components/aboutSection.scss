@@ -5,6 +5,7 @@
 
 .section {
   display: flex;
+  margin: 40px auto;
 
   @include media('<desktop') {
     flex-direction: column;
@@ -13,7 +14,8 @@
 
   &--reverse {
     flex-direction: row-reverse;
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     @include media('<desktop') {
       flex-direction: column;
@@ -23,7 +25,10 @@
 
   &--article {
     max-width: 537px;
-    text-align: justify;
+
+    @include media('<desktop') {
+      max-width: 625px;
+    }
   }
 
   &--media {

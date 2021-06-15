@@ -3,7 +3,7 @@ import Title from '../atoms/Title';
 
 const SectionTitle = ({ text, type }) => {
   return (
-    <div className='container section--title'>
+    <div className=' section--title'>
       <Title type={type}>{text}</Title>
       <div className='section--line'></div>
     </div>
