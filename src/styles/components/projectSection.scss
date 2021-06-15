@@ -48,6 +48,24 @@
     }
   }
 
+  &--link {
+    display: flex;
+    margin-top: 16px;
+
+    a {
+      margin-right: 16px;
+    }
+  }
+  &--tag {
+    font-size: 16px;
+    color: var(--color-green);
+    background-color: var(--color-btn);
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    margin-right: 16px;
+  }
+
   &--line__small {
     height: 1px;
     width: 100%;

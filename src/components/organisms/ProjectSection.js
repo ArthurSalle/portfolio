@@ -21,48 +21,40 @@ const ProjectSection = () => {
           </div>
 
           <div>
-            <div>
-              <Button children='GitHub' />
-              <Button children='Live' />
+            <div className='project--link'>
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    GitHub{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    Live{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
             </div>
-            <div>
-              <Button children='NextJS' />
-              <Button children='Contentful' />
-              <Button children='TypeScript' />
-            </div>
-          </div>
-        </div>
-        <div className='project--img__wrapper'>
-          <StaticImage
-            src='../../images/food.png'
-            alt='Arthur Sallé'
-            width={200}
-            height={200}
-            quality={100}
-          />
-        </div>
-      </div>
-      <div className='project--line__small'></div>
-      <div className='project'>
-        <div className='project--row'>
-          <div className='project--content'>
-            <Title type='h3'>Polenta & Linen</Title>
-            <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
-            </Paragraph>
-          </div>
-
-          <div>
-            <div>
-              <Button children='GitHub' />
-              <Button children='Live' />
-            </div>
-            <div>
-              <Button children='NextJS' />
-              <Button children='Contentful' />
-              <Button children='TypeScript' />
+            <div className='project--link'>
+              <button className='project--tag'>NextJs</button>
+              <button className='project--tag'>Contentful</button>
+              <button className='project--tag'>TypeScript</button>
             </div>
           </div>
         </div>
@@ -89,14 +81,100 @@ const ProjectSection = () => {
           </div>
 
           <div>
-            <div>
-              <Button children='GitHub' />
-              <Button children='Live' />
+            <div className='project--link'>
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    GitHub{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    Live{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
             </div>
-            <div>
-              <Button children='NextJS' />
-              <Button children='Contentful' />
-              <Button children='TypeScript' />
+            <div className='project--link'>
+              <button className='project--tag'>NextJs</button>
+              <button className='project--tag'>Contentful</button>
+              <button className='project--tag'>TypeScript</button>
+            </div>
+          </div>
+        </div>
+        <div className='project--img__wrapper'>
+          <StaticImage
+            src='../../images/food.png'
+            alt='Arthur Sallé'
+            width={200}
+            height={200}
+            quality={100}
+          />
+        </div>
+      </div>
+      <div className='project--line__small'></div>
+      <div className='project'>
+        <div className='project--row'>
+          <div className='project--content'>
+            <Title type='h3'>Polenta & Linen</Title>
+            <Paragraph>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Similique ut, odio a magnam ratione hic! Rem ea atque vel
+              explicabo.
+            </Paragraph>
+          </div>
+
+          <div>
+            <div className='project--link'>
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    GitHub{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
+              <Button
+                children={
+                  <a
+                    href='https://github.com/ArthurSalle/polenta-linen'
+                    target='blank'
+                    className='btn btn--link'
+                  >
+                    Live{' '}
+                    <span role='img' aria-label='logo flèche'>
+                      ↗️
+                    </span>
+                  </a>
+                }
+              />
+            </div>
+            <div className='project--link'>
+              <button className='project--tag'>NextJs</button>
+              <button className='project--tag'>Contentful</button>
+              <button className='project--tag'>TypeScript</button>
             </div>
           </div>
         </div>
