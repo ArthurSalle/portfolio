@@ -27,7 +27,7 @@ const ProjectSection = () => {
                   <a
                     href='https://github.com/ArthurSalle/polenta-linen'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     GitHub{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -41,7 +41,7 @@ const ProjectSection = () => {
                   <a
                     href='https://polenta-linen.vercel.app/'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     Live{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -87,7 +87,7 @@ const ProjectSection = () => {
                   <a
                     href='https://github.com/ArthurSalle/space-protection-alien'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     GitHub{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -101,7 +101,7 @@ const ProjectSection = () => {
                   <a
                     href='https://spaceportectionofalien.netlify.app/'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     Live{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -147,7 +147,7 @@ const ProjectSection = () => {
                   <a
                     href='https://github.com/ArthurSalle/nts-js-202103-p2-herbier'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     GitHub{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -161,7 +161,7 @@ const ProjectSection = () => {
                   <a
                     href='https://magnoliafornantes.netlify.app/'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     Live{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -207,7 +207,7 @@ const ProjectSection = () => {
                   <a
                     href='https://github.com/ArthurSalle/4-spirited-guys'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     GitHub{' '}
                     <span role='img' aria-label='logo flèche'>
@@ -221,7 +221,7 @@ const ProjectSection = () => {
                   <a
                     href='https://4-spirited-guys.netlify.app/'
                     target='blank'
-                    className='btn btn--link'
+                    className='btn btn--link btn--link__effect'
                   >
                     Live{' '}
                     <span role='img' aria-label='logo flèche'>
