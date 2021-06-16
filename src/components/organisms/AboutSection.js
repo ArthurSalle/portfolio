@@ -1,7 +1,10 @@
+// import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
+import Button from '../atoms/Button';
 import Paragraph from '../atoms/Paragraph';
 import SectionTitle from '../molecules/SectionTitle';
+import CV from '../../cv/CV-Arthur.pdf';
 
 const AboutSection = () => {
   return (
@@ -78,11 +81,27 @@ const AboutSection = () => {
           <div className='section--media'>
             <div className='section--img__reverse'>
               <StaticImage
-                src='../../images/work.png'
+                src='../../images/CV.png'
                 alt='Arthur Sallé'
                 width={325}
                 height={402}
                 quality={100}
+              />
+            </div>
+            <div className='header--menu__btn'>
+              <Button
+                children={
+                  <a
+                    href={CV}
+                    target='blank'
+                    download
+                    className='btn btn--center btn--beige rotate-cv'
+                  >
+                    <span role='img' aria-label='fleche'>
+                      ⬇️ Mon CV
+                    </span>
+                  </a>
+                }
               />
             </div>
           </div>

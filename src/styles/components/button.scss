@@ -16,6 +16,20 @@
       height: 74px;
     }
   }
+  &--beige {
+    font-size: 37px;
+    width: 270px;
+    height: 84px;
+    border-radius: 28px;
+    background-color: var(--color-btn);
+    color: var(--color-green);
+
+    @include media('<desktop') {
+      font-size: 40px;
+      width: 226px;
+      height: 74px;
+    }
+  }
 
   &--link {
     font-size: 24px;
@@ -25,10 +39,17 @@
   @media (hover: hover) {
     &--green:hover {
       background-color: var(--color-btn-green-hover);
+      transition: 0.3s;
     }
     // &--link:hover {
     //   background-color: var(--color-btn-hover);
     // }
+  }
+
+  &--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -71,5 +92,18 @@
   @include media('<tablet') {
     transform-origin: calc(50% + 20px) calc(50% + 17px);
     transform: rotate(-4.8deg) translate(20px, 17px);
+  }
+}
+.rotate-cv {
+  transform-origin: calc(50% + 15px) calc(50% - 45px);
+  transform: rotate(3deg) translate(15px, -45px);
+
+  @include media('<desktop') {
+    transform-origin: calc(50% + 65px) calc(50% + 15px);
+    transform: rotate(3deg) translate(15px, -45px);
+  }
+  @include media('<tablet') {
+    transform-origin: calc(50% + 20px) calc(50% + 17px);
+    transform: rotate(3deg) translate(15px, -45px);
   }
 }

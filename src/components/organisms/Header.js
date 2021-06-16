@@ -28,21 +28,21 @@ const Header = () => {
         <div className='header--menu__btn'>
           <Button
             children={
-              <Link to='/' className='btn btn--green rotate-first'>
+              <Link to='/' className='btn btn--center btn--green rotate-first'>
                 À propos
               </Link>
             }
           />
           <Button
             children={
-              <Link to='/' className='btn btn--green rotate-second'>
+              <Link to='/' className='btn btn--center btn--green rotate-second'>
                 Projets
               </Link>
             }
           />
           <Button
             children={
-              <Link to='/' className='btn btn--green rotate-third'>
+              <Link to='/' className='btn btn--center btn--green rotate-third'>
                 Contact
               </Link>
             }
