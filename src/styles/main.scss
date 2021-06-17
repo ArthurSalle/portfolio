@@ -9,6 +9,11 @@
   --color-btn-green-hover: #015a53;
   --color-btn-cv-hover: #b9c0b1;
 }
+::selection {
+  color: var(--color-btn-cv-hover);
+  background-color: var(--color-btn-green-hover);
+}
+
 * {
   margin: 0;
   padding: 0;
