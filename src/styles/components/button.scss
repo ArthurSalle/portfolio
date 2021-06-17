@@ -41,12 +41,21 @@
       background-color: var(--color-btn-green-hover);
       transition: 0.3s;
     }
+
+    &--beige:hover {
+      background-color: var(--color-btn-cv-hover);
+      transition: 0.3s;
+    }
   }
 
   &--center {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &__cv {
+      gap: 8px;
+    }
   }
 }
 

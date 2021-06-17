@@ -1,5 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
+import ArrowLink from '../atoms/ArrowLink';
 import Button from '../atoms/Button';
 import Paragraph from '../atoms/Paragraph';
 import Title from '../atoms/Title';
@@ -7,7 +8,7 @@ import SectionTitle from '../molecules/SectionTitle';
 
 const ProjectSection = () => {
   return (
-    <section className='container'>
+    <section className='container' id='projects'>
       <SectionTitle type='h2' text='Projets 💻' />
       <div className='project'>
         <div className='project--row'>
@@ -29,10 +30,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    GitHub{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    GitHub <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -43,10 +41,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    Live{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    Live <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -89,10 +84,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    GitHub{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    GitHub <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -103,10 +95,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    Live{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    Live <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -149,10 +138,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    GitHub{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    GitHub <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -163,10 +149,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    Live{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    Live <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />
@@ -202,20 +185,13 @@ const ProjectSection = () => {
 
           <div>
             <div className='project--link'>
-              <Button
-                children={
-                  <a
-                    href='https://github.com/ArthurSalle/4-spirited-guys'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    GitHub{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
-                  </a>
-                }
-              />
+              <a
+                href='https://github.com/ArthurSalle/4-spirited-guys'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                GitHub <ArrowLink width='16px' fill='#184340' />
+              </a>
               <Button
                 children={
                   <a
@@ -223,10 +199,7 @@ const ProjectSection = () => {
                     target='blank'
                     className='btn btn--link btn--link__effect'
                   >
-                    Live{' '}
-                    <span role='img' aria-label='logo flèche'>
-                      ↗️
-                    </span>
+                    Live <ArrowLink width='16px' fill='#184340' />
                   </a>
                 }
               />

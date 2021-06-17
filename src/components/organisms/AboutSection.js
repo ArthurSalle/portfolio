@@ -1,15 +1,14 @@
-// import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
-import Button from '../atoms/Button';
 import Paragraph from '../atoms/Paragraph';
 import SectionTitle from '../molecules/SectionTitle';
 import CV from '../../cv/CV-Arthur.pdf';
+import ArrowDownload from '../atoms/ArrowDownload';
 
 const AboutSection = () => {
   return (
     <>
-      <section className='container'>
+      <section className='container' id='about'>
         <SectionTitle type='h2' text='À propos 🍕' />
         <div className='section'>
           <div className='section--article'>
@@ -89,20 +88,15 @@ const AboutSection = () => {
               />
             </div>
             <div className='header--menu__btn'>
-              <Button
-                children={
-                  <a
-                    href={CV}
-                    target='blank'
-                    download
-                    className='btn btn--center btn--beige rotate-cv'
-                  >
-                    <span role='img' aria-label='fleche'>
-                      ⬇️ Mon CV
-                    </span>
-                  </a>
-                }
-              />
+              <a
+                to=''
+                href={CV}
+                target='blank'
+                download
+                className='btn btn--center btn--center__cv btn--beige rotate-cv'
+              >
+                Mon CV <ArrowDownload width='36px' fill='#184340' />
+              </a>
             </div>
           </div>
         </div>

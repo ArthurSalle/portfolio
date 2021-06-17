@@ -1,4 +1,4 @@
-import { StaticImage } from 'gatsby-plugin-image';
+// import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Paragraph from '../atoms/Paragraph';
 import SectionTitle from '../molecules/SectionTitle';
@@ -6,11 +6,11 @@ import SectionTitle from '../molecules/SectionTitle';
 const PersonalSection = () => {
   return (
     <>
-      <section className='section-color'>
-        <div className='container'>
-          <div className='section section--reverse'>
-            <div className='section--article'>
-              <SectionTitle type='h2' text="Ce que j'aime avant tout 😍" />
+      <section className='container'>
+        <div className='article '>
+          <SectionTitle type='h2' text="Ce que j'aime avant tout 😍" />
+          <div className='article--content'>
+            <div className='article--text'>
               <Paragraph className='section--drop'>
                 Ayant grandi dans un petit village de Sologne, j’apprécie les
                 choses simples, me retrouver en extérieur. J’aime également
@@ -23,44 +23,69 @@ const PersonalSection = () => {
                 travers les canaux, et où la vie ne s’arrête jamais.
               </Paragraph>
             </div>
-            <div className='section '>
-              <div className='section--container__first'>
-                <div className='section--container__first__wrapper'>
-                  <StaticImage
-                    src='../../images/arthur.png'
-                    alt='Arthur Sallé'
-                    width={300}
-                    height={300}
-                    quality={100}
-                  />
+            {/* <div className='article--media'>
+              <div className='article--odd'>
+                <div className='article--container__first'>
+                  <div className='article--container__first__wrapper'>
+                    <StaticImage
+                      src='../../images/arthur.png'
+                      alt='Arthur Sallé'
+                      width={200}
+                      height={200}
+                      quality={100}
+                    />
+                  </div>
                 </div>
               </div>
-              <div className='section--container__second'>
-                <div className='section--container__second__wrapper'>
-                  <StaticImage
-                    src='../../images/food.png'
-                    alt='Arthur Sallé'
-                    width={300}
-                    height={300}
-                    quality={100}
-                  />
+              <div className='article--even'>
+                <div className='article--container__second'>
+                  <div className='article--container__second__wrapper'>
+                    <StaticImage
+                      src='../../images/food.png'
+                      alt='Arthur Sallé'
+                      width={200}
+                      height={200}
+                      quality={100}
+                    />
+                  </div>
                 </div>
               </div>
-              <div className='section--container__third'>
-                <div className='section--container__third__wrapper'>
-                  <StaticImage
-                    src='../../images/food.png'
-                    alt='Arthur Sallé'
-                    width={300}
-                    height={300}
-                    quality={100}
-                  />
+              <div className='article--odd article--odd__third '>
+                <div className='article--container__third'>
+                  <div className='article--container__third__wrapper'>
+                    <StaticImage
+                      src='../../images/food.png'
+                      alt='Arthur Sallé'
+                      width={200}
+                      height={200}
+                      quality={100}
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </section>
+
+      {/* <section className='article--color'>
+        <div className='container'>
+          <SectionTitle
+            className='article--title'
+            type='h2'
+            text="Ce que j'aime avant tout 😍"
+          />
+          <div className='article'>
+            
+            <div className='article--media'>
+              
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section> */}
     </>
   );
 };

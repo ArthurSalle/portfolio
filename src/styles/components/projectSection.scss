@@ -70,15 +70,29 @@
 
   &--link {
     display: flex;
-    margin-top: 16px;
     justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
 
     @include media('<desktop') {
       justify-content: unset;
     }
 
     a {
-      margin-right: 16px;
+      display: flex;
+      gap: 8px;
+      margin-right: 24px;
+    }
+    @media (hover: hover) {
+      a:hover {
+        color: var(--color-font-beige);
+        transition: 0.3s;
+
+        svg {
+          fill: #c9d1c1;
+          transition: 0.3s;
+        }
+      }
     }
   }
 
@@ -89,7 +103,7 @@
     border: none;
     border-radius: 12px;
     padding: 8px;
-    margin-right: 16px;
+    margin-right: 8px;
   }
 
   &--line__small {

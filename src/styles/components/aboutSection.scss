@@ -1,6 +1,7 @@
 .section-color {
   background-color: var(--color-background-section);
   margin-top: 96px;
+  margin-bottom: 136px;
 }
 
 .section {
@@ -73,8 +74,4 @@
       transform: rotate(2.75deg);
     }
   }
-}
-.drop {
-  margin-bottom: 24px;
-  letter-spacing: 0.1rem;
 }

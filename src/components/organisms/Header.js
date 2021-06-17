@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Title from '../atoms/Title';
-import Button from '../atoms/Button';
 import { Link } from 'gatsby';
+import scrollTo from '../../utils/scroll';
 
 const Header = () => {
+  useEffect(() => {
+    if (window) {
+      scrollTo();
+    }
+  }, []);
   return (
     <header className='header container '>
       <div className='header--title'>
@@ -26,27 +31,21 @@ const Header = () => {
           />
         </div>
         <div className='header--menu__btn'>
-          <Button
-            children={
-              <Link to='/' className='btn btn--center btn--green rotate-first'>
-                À propos
-              </Link>
-            }
-          />
-          <Button
-            children={
-              <Link to='/' className='btn btn--center btn--green rotate-second'>
-                Projets
-              </Link>
-            }
-          />
-          <Button
-            children={
-              <Link to='/' className='btn btn--center btn--green rotate-third'>
-                Contact
-              </Link>
-            }
-          />
+          <Link to='#about' className='btn btn--center btn--green rotate-first'>
+            À propos
+          </Link>
+          <Link
+            to='#projects'
+            className='btn btn--center btn--green rotate-second'
+          >
+            Projets
+          </Link>
+          <Link
+            to='#contact'
+            className='btn btn--center btn--green rotate-third'
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </header>
