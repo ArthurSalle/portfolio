@@ -30,6 +30,11 @@
       display: flex;
       align-items: center;
       gap: 8px;
+      transition: 1s;
+
+      svg {
+        transition: 1s;
+      }
 
       @include media('<landscape') {
         font-size: 13px;
@@ -55,4 +60,9 @@
       }
     }
   }
+}
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-green);
 }

@@ -10,6 +10,7 @@ const Header = () => {
       scrollTo();
     }
   }, []);
+
   return (
     <header className='header container '>
       <div className='header--title'>
@@ -31,9 +32,9 @@ const Header = () => {
           />
         </div>
         <div className='header--menu__btn'>
-          <Link to='#about' className='btn btn--center btn--green rotate-first'>
+          <a href='#about' className='btn btn--center btn--green rotate-first '>
             À propos
-          </Link>
+          </a>
           <Link
             to='#projects'
             className='btn btn--center btn--green rotate-second'

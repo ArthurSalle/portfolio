@@ -82,6 +82,10 @@
       display: flex;
       gap: 8px;
       margin-right: 24px;
+      transition: 1s;
+      svg {
+        transition: 1s;
+      }
     }
     @media (hover: hover) {
       a:hover {
@@ -101,8 +105,8 @@
     color: var(--color-green);
     background-color: var(--color-btn);
     border: none;
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 100px;
+    padding: 8px 10px;
     margin-right: 8px;
   }
 

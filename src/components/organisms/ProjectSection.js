@@ -1,7 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import ArrowLink from '../atoms/ArrowLink';
-import Button from '../atoms/Button';
 import Paragraph from '../atoms/Paragraph';
 import Title from '../atoms/Title';
 import SectionTitle from '../molecules/SectionTitle';
@@ -23,28 +22,20 @@ const ProjectSection = () => {
 
           <div>
             <div className='project--link'>
-              <Button
-                children={
-                  <a
-                    href='https://github.com/ArthurSalle/polenta-linen'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    GitHub <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
-              <Button
-                children={
-                  <a
-                    href='https://polenta-linen.vercel.app/'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    Live <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
+              <a
+                href='https://github.com/ArthurSalle/polenta-linen'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                GitHub <ArrowLink width='16px' fill='#184340' />
+              </a>
+              <a
+                href='https://polenta-linen.vercel.app/'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                Live <ArrowLink width='16px' fill='#184340' />
+              </a>
             </div>
             <div className='project--link'>
               <button className='project--tag'>NextJs</button>
@@ -77,28 +68,20 @@ const ProjectSection = () => {
 
           <div>
             <div className='project--link'>
-              <Button
-                children={
-                  <a
-                    href='https://github.com/ArthurSalle/space-protection-alien'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    GitHub <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
-              <Button
-                children={
-                  <a
-                    href='https://spaceportectionofalien.netlify.app/'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    Live <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
+              <a
+                href='https://github.com/ArthurSalle/space-protection-alien'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                GitHub <ArrowLink width='16px' fill='#184340' />
+              </a>
+              <a
+                href='https://spaceportectionofalien.netlify.app/'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                Live <ArrowLink width='16px' fill='#184340' />
+              </a>
             </div>
             <div className='project--link'>
               <button className='project--tag'>Axios</button>
@@ -131,28 +114,20 @@ const ProjectSection = () => {
 
           <div>
             <div className='project--link'>
-              <Button
-                children={
-                  <a
-                    href='https://github.com/ArthurSalle/nts-js-202103-p2-herbier'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    GitHub <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
-              <Button
-                children={
-                  <a
-                    href='https://magnoliafornantes.netlify.app/'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    Live <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
+              <a
+                href='https://github.com/ArthurSalle/nts-js-202103-p2-herbier'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                GitHub <ArrowLink width='16px' fill='#184340' />
+              </a>
+              <a
+                href='https://magnoliafornantes.netlify.app/'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                Live <ArrowLink width='16px' fill='#184340' />
+              </a>
             </div>
             <div className='project--link'>
               <button className='project--tag'>ReactJs</button>
@@ -182,7 +157,6 @@ const ProjectSection = () => {
               explicabo.
             </Paragraph>
           </div>
-
           <div>
             <div className='project--link'>
               <a
@@ -192,17 +166,13 @@ const ProjectSection = () => {
               >
                 GitHub <ArrowLink width='16px' fill='#184340' />
               </a>
-              <Button
-                children={
-                  <a
-                    href='https://4-spirited-guys.netlify.app/'
-                    target='blank'
-                    className='btn btn--link btn--link__effect'
-                  >
-                    Live <ArrowLink width='16px' fill='#184340' />
-                  </a>
-                }
-              />
+              <a
+                href='https://4-spirited-guys.netlify.app/'
+                target='blank'
+                className='btn btn--link btn--link__effect'
+              >
+                Live <ArrowLink width='16px' fill='#184340' />
+              </a>
             </div>
             <div className='project--link'>
               <button className='project--tag'>HTML</button>

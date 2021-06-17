@@ -9,6 +9,7 @@
     border-radius: 28px;
     background-color: var(--color-green);
     color: var(--color-btn);
+    transition: 1s;
 
     @include media('<desktop') {
       font-size: 40px;
@@ -23,6 +24,7 @@
     border-radius: 28px;
     background-color: var(--color-btn);
     color: var(--color-green);
+    transition: 1s;
 
     @include media('<desktop') {
       font-size: 40px;

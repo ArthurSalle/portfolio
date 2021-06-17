@@ -52,6 +52,9 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className='copyright'>
+        <p>All Rights Reserved. Arthur Sallé 2021 © </p>
+      </div>
     </section>
   );
 };
