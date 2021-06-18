@@ -1,16 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Title from '../atoms/Title';
 import { Link } from 'gatsby';
-import scrollTo from '../../utils/scroll';
 
 const Header = () => {
-  useEffect(() => {
-    if (window) {
-      scrollTo();
-    }
-  }, []);
-
   return (
     <header className='header container '>
       <div className='header--title'>

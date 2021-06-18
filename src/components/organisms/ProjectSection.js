@@ -24,14 +24,16 @@ const ProjectSection = () => {
             <div className='project--link'>
               <a
                 href='https://github.com/ArthurSalle/polenta-linen'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 GitHub <ArrowLink width='16px' fill='#184340' />
               </a>
               <a
                 href='https://polenta-linen.vercel.app/'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 Live <ArrowLink width='16px' fill='#184340' />
@@ -70,14 +72,16 @@ const ProjectSection = () => {
             <div className='project--link'>
               <a
                 href='https://github.com/ArthurSalle/space-protection-alien'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 GitHub <ArrowLink width='16px' fill='#184340' />
               </a>
               <a
                 href='https://spaceportectionofalien.netlify.app/'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 Live <ArrowLink width='16px' fill='#184340' />
@@ -116,14 +120,16 @@ const ProjectSection = () => {
             <div className='project--link'>
               <a
                 href='https://github.com/ArthurSalle/nts-js-202103-p2-herbier'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 GitHub <ArrowLink width='16px' fill='#184340' />
               </a>
               <a
                 href='https://magnoliafornantes.netlify.app/'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 Live <ArrowLink width='16px' fill='#184340' />
@@ -161,14 +167,16 @@ const ProjectSection = () => {
             <div className='project--link'>
               <a
                 href='https://github.com/ArthurSalle/4-spirited-guys'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 GitHub <ArrowLink width='16px' fill='#184340' />
               </a>
               <a
                 href='https://4-spirited-guys.netlify.app/'
-                target='blank'
+                target='_blank'
+                rel='noreferrer'
                 className='btn btn--link btn--link__effect'
               >
                 Live <ArrowLink width='16px' fill='#184340' />
