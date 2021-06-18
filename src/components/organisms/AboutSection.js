@@ -13,11 +13,11 @@ const AboutSection = () => {
         <div className='section'>
           <div className='section--article'>
             <Paragraph className='section--drop'>
-              Après une ignition au développement en suivant quelques tutos sur
-              HTML et CSS j’ai tout de suite accroché, j’ai adoré avoir un rendu
-              concret en si peu de temps et en tapant quelques lignes de code.
-              Depuis, le CSS from-scratch est surement l’une des choses que je
-              préfères, je suis en train de découvrir comment le rendre
+              Après une initiation au développement en suivant quelques tutos
+              sur HTML et CSS j’ai tout de suite accroché. J’ai adoré avoir un
+              rendu concret en si peu de temps et en tapant quelques lignes de
+              code. Depuis, le CSS from-scratch est surement l’une des choses
+              que je préfères, je suis en train de découvrir comment le rendre
               dynamique avec des bibliothèques d’animations tels que AnimeJs et
               GSAP.
             </Paragraph>

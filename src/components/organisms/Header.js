@@ -25,9 +25,12 @@ const Header = () => {
           />
         </div>
         <div className='header--menu__btn'>
-          <a href='#about' className='btn btn--center btn--green rotate-first '>
+          <Link
+            to='#about'
+            className='btn btn--center btn--green rotate-first '
+          >
             À propos
-          </a>
+          </Link>
           <Link
             to='#projects'
             className='btn btn--center btn--green rotate-second'
