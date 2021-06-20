@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import anime from 'animejs';
 import Title from '../atoms/Title';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = () => {
-  // useEffect(() => {
-  //   const about  =
+  useEffect(() => {
+    anime({
+      targets: '.screen',
+      translateY: [0, '-100%'],
+      duration: 1500,
+      easing: 'easeInOutExpo',
+      delay: 1500,
+    });
 
-  // }, [])
+    anime({
+      targets: '.name',
+      translateY: [20, 0],
+      duration: 1000,
+      easing: 'easeInSine',
+      opacity: [0, 1],
+      delay: 500,
+    });
+  }, []);
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -35,51 +49,56 @@ const Header = () => {
   };
 
   return (
-    <header className='header container '>
-      <div className='header--title'>
-        <Title type='h1'>
-          Hello, moi c’est <strong>Arthur</strong>, développeur frontend à la{' '}
-          <strong>recherche</strong> d’un <strong>stage</strong> ou d’un{' '}
-          <strong>cdi</strong> basé à Nantes ou en remote
-        </Title>
+    <>
+      <div className='screen'>
+        <p className='name'>ARTHUR SALLÉ</p>
       </div>
-      <div className='header--menu'>
-        <div className='header--img__wrapper'>
-          <StaticImage
-            className='header--img'
-            src='../../images/arthur.png'
-            alt='Arthur Sallé'
-            width={352}
-            height={235}
-            quality={100}
-            draggable='false'
-          />
+      <header className='header container '>
+        <div className='header--title'>
+          <Title type='h1'>
+            Hello, moi c’est <strong>Arthur</strong>, développeur frontend à la{' '}
+            <strong>recherche</strong> d’un <strong>stage</strong> ou d’un{' '}
+            <strong>cdi</strong> basé à Nantes ou en remote
+          </Title>
         </div>
-        <div className='header--menu__btn'>
-          <Link
-            to='/#about'
-            className='btn btn--center btn--green rotate-first'
-            onClick={handleClick}
-          >
-            À propos
-          </Link>
-          <Link
-            to='/#projects'
-            className='btn btn--center btn--green rotate-second'
-            onClick={handleClick}
-          >
-            Projets
-          </Link>
-          <Link
-            to='/#contact'
-            className='btn btn--center btn--green rotate-third'
-            onClick={handleClick}
-          >
-            Contact
-          </Link>
+        <div className='header--menu'>
+          <div className='header--img__wrapper'>
+            <StaticImage
+              className='header--img'
+              src='../../images/arthur.png'
+              alt='Arthur Sallé'
+              width={352}
+              height={235}
+              quality={100}
+              draggable='false'
+            />
+          </div>
+          <div className='header--menu__btn'>
+            <Link
+              to='/#about'
+              className='btn btn--center btn--green rotate-first'
+              onClick={handleClick}
+            >
+              À propos
+            </Link>
+            <Link
+              to='/#projects'
+              className='btn btn--center btn--green rotate-second'
+              onClick={handleClick}
+            >
+              Projets
+            </Link>
+            <Link
+              to='/#contact'
+              className='btn btn--center btn--green rotate-third'
+              onClick={handleClick}
+            >
+              Contact
+            </Link>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 };
 

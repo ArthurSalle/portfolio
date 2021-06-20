@@ -10,6 +10,8 @@ const Title = ({ type, children }) => {
       return <h3 className='h3'>{children}</h3>;
     case 'h4':
       return <h4 className='h4'>{children}</h4>;
+    case 'h5':
+      return <h5 className='h5'>{children}</h5>;
 
     default:
       return <h1 className='h1'>{children}</h1>;
