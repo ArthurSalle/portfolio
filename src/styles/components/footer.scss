@@ -60,16 +60,20 @@
     }
   }
 
-  &--space {
-    height: 136px;
-  }
-
   &--copyright {
     margin-top: 24px;
     display: flex;
 
     @include media('<landscape') {
       flex-direction: column;
+    }
+  }
+
+  &--space {
+    height: 136px;
+
+    @include media('<landscape') {
+      height: 64px;
     }
   }
 }

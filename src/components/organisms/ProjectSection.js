@@ -1,6 +1,8 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
+
 import ArrowLink from '../atoms/ArrowLink';
+import Cross from '../atoms/Cross';
 import Paragraph from '../atoms/Paragraph';
 import Title from '../atoms/Title';
 import SectionTitle from '../molecules/SectionTitle';
@@ -20,12 +22,10 @@ const ProjectSection = () => {
               </span>
             </Title>
             <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
+              Polenta & Linen, projet client réalisé en collaboration avec
+              Armand Sallé, est un site de recettes familiales. #WIP
             </Paragraph>
           </div>
-
           <div>
             <div className='project--link'>
               <a
@@ -75,31 +75,30 @@ const ProjectSection = () => {
               </span>
             </Title>
             <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
+              InvestigData, projet client réalisé en groupe durant la formation,
+              est un support numérique et de ressources venant compléter un
+              Serious Game sur les lois de la RGPD. #WIP
             </Paragraph>
           </div>
-
           <div>
-            {/* <div className='project--link'>
+            <div className='project--link'>
               <a
-                href='https://github.com/ArthurSalle/polenta-linen'
+                href='/'
                 target='_blank'
                 rel='noreferrer'
-                className='btn btn--link btn--link__effect'
+                className='disabled btn btn--link btn--link__effect'
               >
-                GitHub <ArrowLink width='16px' fill='#184340' />
+                GitHub <Cross width='16px' fill='#184340' />
               </a>
               <a
-                href='https://polenta-linen.vercel.app/'
+                href='/'
                 target='_blank'
                 rel='noreferrer'
-                className='btn btn--link btn--link__effect'
+                className='disabled btn btn--link btn--link__effect'
               >
-                Live <ArrowLink width='16px' fill='#184340' />
+                Live <Cross width='16px' fill='#184340' />
               </a>
-            </div> */}
+            </div>
             <div className='project--link'>
               <button className='project--tag'>ReactJS</button>
               <button className='project--tag'>Heroku</button>
@@ -124,12 +123,11 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Space Protection of Alien</Title>
             <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
+              Space Protection of Alien, hackhaton de 48h sur le thème de
+              l’espace et réalisé en groupe. Site de sensibilisation et
+              d’adoption d’Alien abandonnés.
             </Paragraph>
           </div>
-
           <div>
             <div className='project--link'>
               <a
@@ -173,9 +171,10 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Magnolia In Nantes</Title>
             <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
+              Magnolia in Nantes, projet réalisé en groupe, est un herbier
+              répertoriant tout les parcs et les Magnolias de la ville de
+              Nantes, l’objectif est de se balader pour remplir son herbier
+              grâce à la géolocalisation et améliorer son score.
             </Paragraph>
           </div>
 
@@ -222,9 +221,9 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>4 Spririted Guys</Title>
             <Paragraph>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ut, odio a magnam ratione hic! Rem ea atque vel
-              explicabo.
+              4 Spirited Guys, premier projet réalisé en groupe, est le site
+              vitrine d’un bar fictif. Informations, achats en ligne,
+              réservation en ligne et formulaire de contact.
             </Paragraph>
           </div>
           <div>

@@ -44,7 +44,8 @@ const Footer = () => {
           <div className='footer--stack'>
             <Paragraph className='h4'>Fabriqué avec</Paragraph>
             <Paragraph className='drop--color'>
-              React, Gatsby, Sass et AnimeJs, design par Armand & Pierre Louis{' '}
+              React, Gatsby, Sass et AnimeJs, design réalisé avec Armand &
+              Pierre Louis{' '}
               <span role='img' aria-label='heart'>
                 ❤️🔥
               </span>
@@ -54,7 +55,7 @@ const Footer = () => {
                 All Rights Reserved.
               </Paragraph>
               <Paragraph className='drop--color drop--copyright'>
-                Arthur Sallé 2021 ©{' '}
+                Arthur Sallé 2021 ©
               </Paragraph>
             </div>
           </div>
