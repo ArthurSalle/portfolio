@@ -21,7 +21,10 @@ const Footer = () => {
         </div>
         <div className='footer--link'>
           <div className='footer--contact'>
-            <a to='/#' href='mailto:arthursalle.pro@gmail.com'>
+            <a
+              to='/#'
+              href='mailto:arthursalle.pro@gmail.com?subject=Hello ! 👋🏼'
+            >
               <Mail width='21px' fill='#c9d1c1' />
               arthursalle.pro@gmail.com
             </a>

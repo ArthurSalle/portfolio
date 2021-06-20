@@ -7,10 +7,14 @@ const Seo = () => {
   const faviconLink = [
     { rel: 'icon', type: 'image/ico', sizes: '32x32', href: favicon },
   ];
+
   const title = 'Arthur Sallé | Portfolio';
+
   const description =
     'Arthur Sallé, développeur frontend, basé à Nantes et formé à la Wild Code School. Fan de la JAMstack, du CSS, des animations et attiré par le rendu visuel, j’aime coder des sites mêlant design, animations et optimisation.';
+
   const url = 'https://arthur-salle.fr/';
+
   return (
     <Helmet htmlAttributes={{ lang: 'fr' }} link={faviconLink}>
       <meta charSet='utf-8' />

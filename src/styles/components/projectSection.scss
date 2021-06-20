@@ -36,6 +36,7 @@
       left: unset;
       transform: rotate(3.15deg);
     }
+
     @include media('<tablet') {
       margin-top: 48px;
     }
@@ -46,6 +47,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
   @include media('<tablet') {
     flex-direction: column;
     margin: 40px auto;

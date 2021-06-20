@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className='header--menu'>
         <div className='header--img__wrapper'>
-          <img src={Arthur} alt='Arthur Sallé' />
+          <img className='header--img' src={Arthur} alt='Arthur Sallé' />
         </div>
         <div className='header--menu__btn'>
           <Link
