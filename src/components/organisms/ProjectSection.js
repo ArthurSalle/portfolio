@@ -22,8 +22,8 @@ const ProjectSection = () => {
               </span>
             </Title>
             <Paragraph>
-              Polenta & Linen, projet client réalisé en collaboration avec
-              Armand Sallé, est un site de recettes familiales. #WIP
+              Site de recettes familiales réalisé en collaboration avec Armand
+              Sallé. #WIP
             </Paragraph>
           </div>
           <div>
@@ -75,9 +75,9 @@ const ProjectSection = () => {
               </span>
             </Title>
             <Paragraph>
-              InvestigData, projet client réalisé en groupe durant la formation,
-              est un support numérique et de ressources venant compléter un
-              Serious Game sur les lois de la RGPD. #WIP
+              Support numérique et de ressources venant compléter un Serious
+              Game sur les lois de la RGPD. Réalisé en groupe durant la
+              formation. #WIP
             </Paragraph>
           </div>
           <div>
@@ -123,9 +123,8 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Space Protection of Alien</Title>
             <Paragraph>
-              Space Protection of Alien, hackhaton de 48h sur le thème de
-              l’espace et réalisé en groupe. Site de sensibilisation et
-              d’adoption d’Alien abandonnés.
+              Site de sensibilisation et d’adoption d’Alien abandonnés. Réalisé
+              en groupe lors d'un hackhaton de 48h sur le thème de l’espace.
             </Paragraph>
           </div>
           <div>
@@ -171,10 +170,10 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Magnolia In Nantes</Title>
             <Paragraph>
-              Magnolia in Nantes, projet réalisé en groupe, est un herbier
-              répertoriant tout les parcs et les Magnolias de la ville de
+              Herbier répertoriant tout les parcs et Magnolias de la ville de
               Nantes, l’objectif est de se balader pour remplir son herbier
-              grâce à la géolocalisation et améliorer son score.
+              grâce à la géolocalisation. Projet réalisé en groupe durant la
+              formation.
             </Paragraph>
           </div>
 
@@ -221,9 +220,9 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>4 Spririted Guys</Title>
             <Paragraph>
-              4 Spirited Guys, premier projet réalisé en groupe, est le site
-              vitrine d’un bar fictif. Informations, achats en ligne,
-              réservation en ligne et formulaire de contact.
+              Site vitrine d’un bar fictif. Informations, achats en ligne,
+              réservation en ligne et formulaire de contact. Premier projet
+              réalisé en groupe durant la formation.
             </Paragraph>
           </div>
           <div>

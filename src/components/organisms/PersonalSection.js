@@ -14,11 +14,11 @@ const PersonalSection = () => {
             <div className='article--text'>
               <Paragraph className='section--drop'>
                 Ayant grandi dans un petit village de Sologne, j’apprécie les
-                choses simples, me retrouver en extérieur. J’aime également
+                choses simples comme me retrouver en extérieur. J’aime également
                 sortir me balader, partir à la découverte d’endroits que je ne
-                connais pas, dénicher des coins atypiques. Je suis aussi fan de
-                la culture old school, du skate, de la moto, des tatouages, de
-                la street food mais surtout des pizzas.
+                connais pas et dénicher des coins atypiques. Je suis aussi fan
+                de la culture old school, du skate, de la moto, des tatouages,
+                de la street food mais surtout des pizzas.
               </Paragraph>
             </div>
           </div>
