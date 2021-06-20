@@ -1,9 +1,39 @@
 import React from 'react';
+import anime from 'animejs';
 import Title from '../atoms/Title';
 import { Link } from 'gatsby';
-import Arthur from '../../images/arthur.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = () => {
+  // useEffect(() => {
+  //   const about  =
+
+  // }, [])
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    const link = new URL(e.target.href);
+    const targetElement = document.querySelector(link.hash);
+    const targetPosition = targetElement.getBoundingClientRect();
+    const targetY = targetPosition.y;
+    const scrollPosition = targetY + window.scrollY;
+
+    let animeObjPosition = {
+      newY: window.scrollY,
+    };
+
+    anime({
+      targets: animeObjPosition,
+      newY: scrollPosition,
+      easing: 'easeInOutQuart',
+      duration: 2000,
+      round: 1,
+      update: function () {
+        window.scrollTo(0, animeObjPosition.newY);
+      },
+    });
+  };
+
   return (
     <header className='header container '>
       <div className='header--title'>
@@ -15,24 +45,35 @@ const Header = () => {
       </div>
       <div className='header--menu'>
         <div className='header--img__wrapper'>
-          <img className='header--img' src={Arthur} alt='Arthur Sallé' />
+          <StaticImage
+            className='header--img'
+            src='../../images/arthur.png'
+            alt='Arthur Sallé'
+            width={352}
+            height={235}
+            quality={100}
+            draggable='false'
+          />
         </div>
         <div className='header--menu__btn'>
           <Link
-            to='#about'
-            className='btn btn--center btn--green rotate-first '
+            to='/#about'
+            className='btn btn--center btn--green rotate-first'
+            onClick={handleClick}
           >
             À propos
           </Link>
           <Link
-            to='#projects'
+            to='/#projects'
             className='btn btn--center btn--green rotate-second'
+            onClick={handleClick}
           >
             Projets
           </Link>
           <Link
-            to='#contact'
+            to='/#contact'
             className='btn btn--center btn--green rotate-third'
+            onClick={handleClick}
           >
             Contact
           </Link>

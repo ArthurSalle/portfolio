@@ -16,11 +16,6 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
-
-      resolve: 'gatsby-plugin-anchor-links',
-      options: {
-        offset: -100,
-      },
     },
   ],
 };
