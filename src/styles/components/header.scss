@@ -3,6 +3,11 @@
   justify-content: space-between;
   margin-top: 80px;
 
+  img {
+    width: 352px;
+    height: 235px;
+  }
+
   @include media('<desktop') {
     flex-direction: column;
     margin-top: 54px;
@@ -44,6 +49,7 @@
       content: '';
       display: block;
       position: absolute;
+      z-index: -1;
       inset: 0;
       background-color: var(--color-btn);
       width: 100%;

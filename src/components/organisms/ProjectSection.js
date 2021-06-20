@@ -12,7 +12,13 @@ const ProjectSection = () => {
       <div className='project'>
         <div className='project--row'>
           <div className='project--content'>
-            <Title type='h3'>Polenta & Linen</Title>
+            <Title type='h3'>
+              Polenta & Linen
+              <span role='img' aria-label='wip'>
+                {' '}
+                🚧
+              </span>
+            </Title>
             <Paragraph>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Similique ut, odio a magnam ratione hic! Rem ea atque vel
@@ -40,7 +46,7 @@ const ProjectSection = () => {
               </a>
             </div>
             <div className='project--link'>
-              <button className='project--tag'>NextJs</button>
+              <button className='project--tag'>NextJS</button>
               <button className='project--tag'>Contentful</button>
               <button className='project--tag'>TypeScript</button>
             </div>
@@ -48,11 +54,67 @@ const ProjectSection = () => {
         </div>
         <div className='project--img__wrapper'>
           <StaticImage
-            src='../../images/food2.png'
-            alt='Arthur Sallé'
+            src='../../images/pizza.png'
+            alt='pizza'
             width={200}
             height={200}
             quality={100}
+            draggable='false'
+          />
+        </div>
+      </div>
+      <div className='project--line__small'></div>
+      <div className='project'>
+        <div className='project--row'>
+          <div className='project--content'>
+            <Title type='h3'>
+              InvestigData
+              <span role='img' aria-label='wip'>
+                {' '}
+                🚧
+              </span>
+            </Title>
+            <Paragraph>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Similique ut, odio a magnam ratione hic! Rem ea atque vel
+              explicabo.
+            </Paragraph>
+          </div>
+
+          <div>
+            {/* <div className='project--link'>
+              <a
+                href='https://github.com/ArthurSalle/polenta-linen'
+                target='_blank'
+                rel='noreferrer'
+                className='btn btn--link btn--link__effect'
+              >
+                GitHub <ArrowLink width='16px' fill='#184340' />
+              </a>
+              <a
+                href='https://polenta-linen.vercel.app/'
+                target='_blank'
+                rel='noreferrer'
+                className='btn btn--link btn--link__effect'
+              >
+                Live <ArrowLink width='16px' fill='#184340' />
+              </a>
+            </div> */}
+            <div className='project--link'>
+              <button className='project--tag'>ReactJS</button>
+              <button className='project--tag'>Heroku</button>
+              <button className='project--tag'>Tailwind</button>
+            </div>
+          </div>
+        </div>
+        <div className='project--img__wrapper'>
+          <StaticImage
+            src='../../images/game.png'
+            alt='carte'
+            width={200}
+            height={200}
+            quality={100}
+            draggable='false'
           />
         </div>
       </div>
@@ -97,10 +159,11 @@ const ProjectSection = () => {
         <div className='project--img__wrapper'>
           <StaticImage
             src='../../images/alien.png'
-            alt='Arthur Sallé'
+            alt='Alien'
             width={200}
             height={200}
             quality={100}
+            draggable='false'
           />
         </div>
       </div>
@@ -136,7 +199,7 @@ const ProjectSection = () => {
               </a>
             </div>
             <div className='project--link'>
-              <button className='project--tag'>ReactJs</button>
+              <button className='project--tag'>ReactJS</button>
               <button className='project--tag'>Leaflet</button>
               <button className='project--tag'>FireBase</button>
             </div>
@@ -145,10 +208,11 @@ const ProjectSection = () => {
         <div className='project--img__wrapper'>
           <StaticImage
             src='../../images/magnolia.png'
-            alt='Arthur Sallé'
+            alt='fleur'
             width={200}
             height={200}
             quality={100}
+            draggable='false'
           />
         </div>
       </div>
@@ -192,10 +256,11 @@ const ProjectSection = () => {
         <div className='project--img__wrapper'>
           <StaticImage
             src='../../images/bar.png'
-            alt='Arthur Sallé'
+            alt='bar'
             width={200}
             height={200}
             quality={100}
+            draggable='false'
           />
         </div>
       </div>

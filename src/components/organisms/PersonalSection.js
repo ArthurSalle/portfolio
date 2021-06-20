@@ -18,21 +18,19 @@ const PersonalSection = () => {
                 sortir me balader, partir à la découverte d’endroit que je ne
                 connais pas, dénicher des coins atypiques. Je suis aussi fan de
                 la culture old school, du skate, de la moto, des tatouages, de
-                la street food mais surtout des pizzas. J’aime me balader à
-                Amsterdam pour l’ambiance que dégage la ville et sa beauté, où
-                la nature se mêle au centre ville à travers les canaux, et où la
-                vie ne s’arrête jamais.
+                la street food mais surtout des pizzas.
               </Paragraph>
             </div>
           </div>
           <div className='article--media'>
             <div className='article--container__wrapper'>
               <StaticImage
-                src='../../images/arthur.png'
-                alt='Arthur Sallé'
+                src='../../images/lake.png'
+                alt='forêt'
                 width={315}
                 height={315}
                 quality={100}
+                draggable='false'
               />
             </div>
           </div>

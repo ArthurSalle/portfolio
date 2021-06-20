@@ -49,15 +49,18 @@ const Footer = () => {
                 ❤️🔥
               </span>
             </Paragraph>
-            <Paragraph className='drop--color drop--copyright'>
-              All Rights Reserved. Arthur Sallé 2021 ©{' '}
-            </Paragraph>
+            <div className='footer--copyright'>
+              <Paragraph className='drop--color drop--copyright'>
+                All Rights Reserved.
+              </Paragraph>
+              <Paragraph className='drop--color drop--copyright'>
+                Arthur Sallé 2021 ©{' '}
+              </Paragraph>
+            </div>
           </div>
         </div>
       </footer>
-      <div>
-        <br />
-      </div>
+      <div className='footer--space'></div>
     </section>
   );
 };

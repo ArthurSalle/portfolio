@@ -1,7 +1,7 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import Title from '../atoms/Title';
 import { Link } from 'gatsby';
+import Arthur from '../../images/arthur.png';
 
 const Header = () => {
   return (
@@ -15,14 +15,7 @@ const Header = () => {
       </div>
       <div className='header--menu'>
         <div className='header--img__wrapper'>
-          <StaticImage
-            src='../../images/arthur.png'
-            alt='Arthur Sallé'
-            width={352}
-            height={235}
-            quality={100}
-            placeholder='none'
-          />
+          <img src={Arthur} alt='Arthur Sallé' />
         </div>
         <div className='header--menu__btn'>
           <Link

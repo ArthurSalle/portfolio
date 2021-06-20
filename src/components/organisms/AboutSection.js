@@ -40,11 +40,12 @@ const AboutSection = () => {
           <div className='section--media'>
             <div className='section--img__wrapper'>
               <StaticImage
-                src='../../images/arthur.png'
-                alt='Arthur Sallé'
+                src='../../images/mac4.png'
+                alt='macbook'
                 width={325}
                 height={402}
                 quality={100}
+                draggable='false'
               />
             </div>
           </div>
@@ -81,10 +82,11 @@ const AboutSection = () => {
             <div className='section--img__reverse'>
               <StaticImage
                 src='../../images/CV.png'
-                alt='Arthur Sallé'
+                alt='cv'
                 width={325}
                 height={402}
                 quality={100}
+                draggable='false'
               />
             </div>
             <div className='header--menu__btn'>

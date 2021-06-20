@@ -5,8 +5,12 @@
   background-color: var(--color-btn-green-hover);
   color: var(--color-beige);
   border-radius: 30px;
-  margin: 136px auto;
+  margin: 136px auto 0 auto;
   padding: 40px;
+
+  @include media('<landscape') {
+    gap: 24px;
+  }
 
   &--link {
     display: flex;
@@ -30,11 +34,6 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      transition: 1s;
-
-      svg {
-        transition: 1s;
-      }
 
       @include media('<landscape') {
         font-size: 13px;
@@ -58,6 +57,19 @@
           transition: 0.3s;
         }
       }
+    }
+  }
+
+  &--space {
+    height: 136px;
+  }
+
+  &--copyright {
+    margin-top: 24px;
+    display: flex;
+
+    @include media('<landscape') {
+      flex-direction: column;
     }
   }
 }
