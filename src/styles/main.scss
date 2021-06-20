@@ -26,13 +26,12 @@
 }
 
 html {
+  overflow-x: hidden;
   cursor: default;
   font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
   height: -webkit-fill-available;
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: none;
-  //-webkit-font-smoothing: subpixel-antialiased;
-  //-moz-osx-font-smoothing: grayscale;
   scroll-behavior: none;
 }
 
@@ -46,9 +45,9 @@ body {
   width: 100vw;
   overscroll-behavior: none;
   -webkit-overflow-scrolling: none;
-  overflow-x: hidden;
   position: relative;
 }
+
 .container {
   max-width: 1076px;
   margin: 0 auto;

@@ -1,11 +1,12 @@
+import anime from 'animejs';
 import React, { useEffect } from 'react';
-import Header from '../components/organisms/Header';
 import AboutSection from '../components/organisms/AboutSection';
+import Footer from '../components/organisms/Footer';
+import Header from '../components/organisms/Header';
+import PersonalSection from '../components/organisms/PersonalSection';
+import ProjectSection from '../components/organisms/ProjectSection';
 import Seo from '../components/organisms/Seo';
 import '../styles/index.scss';
-import ProjectSection from '../components/organisms/ProjectSection';
-import PersonalSection from '../components/organisms/PersonalSection';
-import Footer from '../components/organisms/Footer';
 
 const IndexPage = () => {
   useEffect(() => {
@@ -15,9 +16,37 @@ const IndexPage = () => {
     );
   }, []);
 
+  useEffect(() => {
+    anime
+      .timeline({
+        easing: 'easeInSine',
+      })
+      .add(
+        {
+          targets: '.name',
+          translateY: [20, 0],
+          duration: 1000,
+          opacity: [0, 1],
+        },
+        '+=500'
+      )
+      .add(
+        {
+          targets: '.screen',
+          translateY: [0, '-100%'],
+          duration: 1500,
+          easing: 'easeInOutExpo',
+        },
+        '+=600'
+      );
+  }, []);
+
   return (
     <>
       <Seo />
+      <div className='screen'>
+        <p className='name'>ARTHUR SALLÉ</p>
+      </div>
       <main>
         <Header />
         <AboutSection />
