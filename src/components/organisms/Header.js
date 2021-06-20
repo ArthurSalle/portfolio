@@ -22,6 +22,15 @@ const Header = () => {
       opacity: [0, 1],
       delay: 500,
     });
+
+    anime({
+      targets: '.header',
+      translateY: [20, 0],
+      duration: 1000,
+      easing: 'easeInSine',
+      opacity: [0, 1],
+      delay: 2500,
+    });
   }, []);
 
   const handleClick = (e) => {
