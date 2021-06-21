@@ -16,10 +16,10 @@ const AboutSection = () => {
               Après une initiation au développement en suivant quelques tutos
               sur HTML et CSS, j’ai tout de suite accroché. J’ai adoré obtenir
               un rendu concret en si peu de temps et en tapant quelques lignes
-              de code. Depuis, le CSS from-scratch est sûrement l’une des défis
+              de code. Depuis, le CSS from-scratch est sûrement l’un des défis
               que je préfère et je suis en train de découvrir comment le rendre
-              dynamique avec des bibliothèques d’animations tels que AnimeJs et
-              GSAP.
+              dynamique avec des bibliothèques d’animations telles que AnimeJs
+              et GSAP.
             </Paragraph>
             <Paragraph className='section--drop'>
               Lors d’un projet client en collaboration avec un développeur

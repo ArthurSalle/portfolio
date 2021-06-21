@@ -36,6 +36,8 @@ const IndexPage = () => {
           translateY: [0, '-100%'],
           duration: 1500,
           easing: 'easeInOutExpo',
+          // complete: () =>
+          //   (document.querySelector('main').style.overflow = 'unset'),
         },
         '+=600'
       );

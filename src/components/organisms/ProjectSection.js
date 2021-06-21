@@ -123,7 +123,7 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Space Protection of Alien</Title>
             <Paragraph>
-              Site de sensibilisation et d’adoption d’Alien abandonnés. Réalisé
+              Site de sensibilisation et d’adoption d’aliens abandonnés. Réalisé
               en groupe lors d'un hackhaton de 48h sur le thème de l’espace.
             </Paragraph>
           </div>
@@ -170,7 +170,7 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Magnolia In Nantes</Title>
             <Paragraph>
-              Herbier répertoriant tout les parcs et Magnolias de la ville de
+              Herbier répertoriant tous les parcs et Magnolias de la ville de
               Nantes, l’objectif est de se balader pour remplir son herbier
               grâce à la géolocalisation. Projet réalisé en groupe durant la
               formation.
