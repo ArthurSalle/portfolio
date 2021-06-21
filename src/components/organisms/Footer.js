@@ -47,8 +47,8 @@ const Footer = () => {
           <div className='footer--stack'>
             <Paragraph className='h4'>Fabriqué avec</Paragraph>
             <Paragraph className='drop--color'>
-              React, Gatsby, Sass et AnimeJs, design réalisé avec Armand &
-              Pierre Louis{' '}
+              React, Gatsby, Sass et AnimeJs, font TT Norms by Ivan Gladkikh,
+              design réalisé avec Armand & Pierre Louis{' '}
               <span role='img' aria-label='heart'>
                 ❤️🔥
               </span>
