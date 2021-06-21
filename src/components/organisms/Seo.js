@@ -32,7 +32,7 @@ const Seo = () => {
       <meta property='twitter:url' content={url} />
       <meta property='twitter:title' content={title} />
       <meta property='twitter:description' content={description} />
-      <meta property='twitter:image:src' content='../../images/og.png' />
+      <meta property='twitter:image' content={ogImg} />
     </Helmet>
   );
 };
