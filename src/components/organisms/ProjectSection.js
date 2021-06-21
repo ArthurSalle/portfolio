@@ -170,7 +170,7 @@ const ProjectSection = () => {
           <div className='project--content'>
             <Title type='h3'>Magnolia In Nantes</Title>
             <Paragraph>
-              Herbier répertoriant tout les parcs et Magnolias de la ville de
+              Herbier répertoriant tous les parcs et Magnolias de la ville de
               Nantes, l’objectif est de se balader pour remplir son herbier
               grâce à la géolocalisation. Projet réalisé en groupe durant la
               formation.
