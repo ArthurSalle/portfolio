@@ -33,9 +33,8 @@ const Header = () => {
     <header className='header container '>
       <div className='header--title'>
         <Title type='h1'>
-          Hello, moi c’est <strong>Arthur</strong>, développeur frontend à la{' '}
-          <strong>recherche</strong> d’un <strong>stage</strong> ou d’un{' '}
-          <strong>cdi</strong> basé à Nantes ou en remote
+          Hello, moi c’est <strong>Arthur</strong>, développeur frontend basé à
+          Nantes.
         </Title>
       </div>
       <div className='header--menu'>
