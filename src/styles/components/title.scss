@@ -1,9 +1,9 @@
 .h1 {
-  font-size: 61px;
+  font-size: 55px;
   line-height: 1.6;
 
   @include media('<tablet') {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 1.4;
   }
 }
