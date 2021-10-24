@@ -72,6 +72,11 @@
   }
 
   &--link {
+    &-column {
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
     display: flex;
     justify-content: flex-end;
     gap: 8px;

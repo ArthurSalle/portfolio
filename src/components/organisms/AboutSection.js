@@ -2,7 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Paragraph from '../atoms/Paragraph';
 import SectionTitle from '../molecules/SectionTitle';
-import CV from '../../cv/CV-Arthur.pdf';
+import CV from '../../cv/CV.pdf';
 import ArrowDownload from '../atoms/ArrowDownload';
 
 const AboutSection = () => {
