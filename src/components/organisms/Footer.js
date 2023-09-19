@@ -1,10 +1,10 @@
-import React from 'react';
-import Paragraph from '../atoms/Paragraph';
-import Title from '../atoms/Title';
-import LinkedIn from '../atoms/LinkedIn';
-import Mail from '../atoms/Mail';
-import GitHub from '../atoms/GitHub';
-import Twitter from '../atoms/Twitter';
+import React from 'react'
+import Paragraph from '../atoms/Paragraph'
+import Title from '../atoms/Title'
+import LinkedIn from '../atoms/LinkedIn'
+import Mail from '../atoms/Mail'
+import GitHub from '../atoms/GitHub'
+import Twitter from '../atoms/Twitter'
 
 const Footer = () => {
   return (
@@ -23,10 +23,10 @@ const Footer = () => {
           <div className='footer--contact'>
             <a
               to='/#'
-              href='mailto:arthursalle.pro@gmail.com?subject=Hello ! 👋🏼'
+              href='mailto:arthur.salle95@gmail.com?subject=Hello ! 👋🏼'
             >
               <Mail width='21px' fill='#c9d1c1' />
-              arthursalle.pro@gmail.com
+              arthur.salle95@gmail.com
             </a>
             <a
               to='/#'
@@ -66,7 +66,7 @@ const Footer = () => {
       </footer>
       <div className='footer--space'></div>
     </section>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
