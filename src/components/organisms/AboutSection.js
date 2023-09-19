@@ -1,9 +1,9 @@
-import { StaticImage } from 'gatsby-plugin-image';
-import React from 'react';
-import Paragraph from '../atoms/Paragraph';
-import SectionTitle from '../molecules/SectionTitle';
-import CV from '../../cv/CV.pdf';
-import ArrowDownload from '../atoms/ArrowDownload';
+import { StaticImage } from 'gatsby-plugin-image'
+import React from 'react'
+import Paragraph from '../atoms/Paragraph'
+import SectionTitle from '../molecules/SectionTitle'
+import CV from '../../cv/CV.pdf'
+import ArrowDownload from '../atoms/ArrowDownload'
 
 const AboutSection = () => {
   return (
@@ -94,7 +94,7 @@ const AboutSection = () => {
                 to=''
                 href={CV}
                 target='blank'
-                download
+                download='CV-ArthurSallé'
                 className='btn btn--center btn--center__cv btn--beige rotate-cv'
               >
                 Mon CV <ArrowDownload width='36px' fill='#184340' />
@@ -104,7 +104,7 @@ const AboutSection = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection
