@@ -1,43 +1,32 @@
-import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
+import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 
-import ArrowLink from '../atoms/ArrowLink';
-import Cross from '../atoms/Cross';
-import Paragraph from '../atoms/Paragraph';
-import Title from '../atoms/Title';
-import SectionTitle from '../molecules/SectionTitle';
+import ArrowLink from '../atoms/ArrowLink'
+import Cross from '../atoms/Cross'
+import Paragraph from '../atoms/Paragraph'
+import Title from '../atoms/Title'
+import SectionTitle from '../molecules/SectionTitle'
 
 const ProjectSection = () => {
   return (
     <section className='container' id='projects'>
       <SectionTitle type='h2' text='Projets 💻' />
+
       <div className='project'>
         <div className='project--row'>
           <div className='project--content'>
-            <Title type='h3'>
-              ApplyFuture
-              <span role='img' aria-label='wip'>
-                {' '}
-                🚧
-              </span>
-            </Title>
+            <Title type='h3'>Searocco | Digital Studio</Title>
             <Paragraph>
-              Stage de fin de formation. Création d'une interface de traduction
-              avec i18n et création de la partie Blog du site. #WIP
+              Travail principalement sur des dashboards administrateurs.
             </Paragraph>
           </div>
           <div>
             <div className='project--link'>
-              <a
-                href='https://github.com/ArthurSalle/polenta-linen'
-                target='_blank'
-                rel='noreferrer'
-                className='btn btn--link btn--link__effect'
-              >
+              <span className='btn btn--link btn--link__effect'>
                 GitHub <Cross width='16px' fill='#184340' />
-              </a>
+              </span>
               <a
-                href='https://www.polentaandlinen.com/'
+                href='https://searocco.studio/'
                 target='_blank'
                 rel='noreferrer'
                 className='btn btn--link btn--link__effect'
@@ -47,22 +36,22 @@ const ProjectSection = () => {
             </div>
             <div className='project--link project--link-column'>
               <div>
-                <button className='project--tag'>NextJS</button>
-                <button className='project--tag'>GraphQL</button>
-                <button className='project--tag'>TypeScript</button>
+                <button className='project--tag'>VueJS</button>
+                <button className='project--tag'>Vuetify</button>
+                <button className='project--tag'>Laravel</button>
+                <button className='project--tag'>SQL</button>
               </div>
               <div>
-                <button className='project--tag'>AWS</button>
-                <button className='project--tag'>i18n</button>
+                <button className='project--tag'>React</button>
+                <button className='project--tag'>TypeScript</button>
                 <button className='project--tag'>Tailwind</button>
-                <button className='project--tag'>Jest</button>
               </div>
             </div>
           </div>
         </div>
         <div className='project--img__wrapper'>
           <StaticImage
-            src='../../images/books.png'
+            src='../../images/searocco.png'
             alt='pizza'
             width={200}
             height={200}
@@ -71,52 +60,9 @@ const ProjectSection = () => {
           />
         </div>
       </div>
+
       <div className='project--line__small'></div>
-      <div className='project'>
-        <div className='project--row'>
-          <div className='project--content'>
-            <Title type='h3'>Portfolio | Webflow</Title>
-            <Paragraph>
-              Découverte de l'outil no-code Webflow et reproduction de mon
-              portfolio.
-            </Paragraph>
-          </div>
-          <div>
-            <div className='project--link'>
-              <a
-                href='https://github.com/ArthurSalle/polenta-linen'
-                target='_blank'
-                rel='noreferrer'
-                className='btn btn--link btn--link__effect'
-              >
-                GitHub <Cross width='16px' fill='#184340' />
-              </a>
-              <a
-                href='https://arthur-salle.webflow.io/'
-                target='_blank'
-                rel='noreferrer'
-                className='btn btn--link btn--link__effect'
-              >
-                Live <ArrowLink width='16px' fill='#184340' />
-              </a>
-            </div>
-            <div className='project--link'>
-              <button className='project--tag'>Webflow</button>
-            </div>
-          </div>
-        </div>
-        <div className='project--img__wrapper'>
-          <StaticImage
-            src='../../images/macbook.png'
-            alt='pizza'
-            width={200}
-            height={200}
-            quality={100}
-            draggable='false'
-          />
-        </div>
-      </div>
-      <div className='project--line__small'></div>
+
       <div className='project'>
         <div className='project--row'>
           <div className='project--content'>
@@ -163,47 +109,46 @@ const ProjectSection = () => {
           />
         </div>
       </div>
+
       <div className='project--line__small'></div>
+
       <div className='project'>
         <div className='project--row'>
           <div className='project--content'>
-            <Title type='h3'>InvestigData</Title>
+            <Title type='h3'>ApplyFuture</Title>
             <Paragraph>
-              Support numérique et de ressources venant compléter un Serious
-              Game sur les lois de la RGPD. Projet réalisé en groupe durant la
-              formation.
+              Stage de fin de formation. Création d'une interface de traduction
+              avec i18n et création de la partie Blog du site.
             </Paragraph>
           </div>
           <div>
             <div className='project--link'>
-              <a
-                href='/'
-                target='_blank'
-                rel='noreferrer'
-                className='disabled btn btn--link btn--link__effect'
-              >
+              <span className='btn btn--link btn--link__effect'>
                 GitHub <Cross width='16px' fill='#184340' />
-              </a>
-              <a
-                href='/'
-                target='_blank'
-                rel='noreferrer'
-                className='disabled btn btn--link btn--link__effect'
-              >
+              </span>
+              <span className='btn btn--link btn--link__effect'>
                 Live <Cross width='16px' fill='#184340' />
-              </a>
+              </span>
             </div>
-            <div className='project--link'>
-              <button className='project--tag'>ReactJS</button>
-              <button className='project--tag'>Heroku</button>
-              <button className='project--tag'>Tailwind</button>
+            <div className='project--link project--link-column'>
+              <div>
+                <button className='project--tag'>NextJS</button>
+                <button className='project--tag'>GraphQL</button>
+                <button className='project--tag'>TypeScript</button>
+              </div>
+              <div>
+                <button className='project--tag'>AWS</button>
+                <button className='project--tag'>i18n</button>
+                <button className='project--tag'>Tailwind</button>
+                <button className='project--tag'>Jest</button>
+              </div>
             </div>
           </div>
         </div>
         <div className='project--img__wrapper'>
           <StaticImage
-            src='../../images/game.png'
-            alt='carte'
+            src='../../images/books.png'
+            alt='pizza'
             width={200}
             height={200}
             quality={100}
@@ -211,48 +156,36 @@ const ProjectSection = () => {
           />
         </div>
       </div>
+
       <div className='project--line__small'></div>
+
       <div className='project'>
         <div className='project--row'>
           <div className='project--content'>
-            <Title type='h3'>Magnolia In Nantes</Title>
+            <Title type='h3'>Portfolio | Webflow</Title>
             <Paragraph>
-              Herbier répertoriant tous les parcs et Magnolias de la ville de
-              Nantes, l’objectif est de se balader pour remplir son herbier
-              grâce à la géolocalisation. Projet réalisé en groupe durant la
-              formation.
+              Découverte de l'outil no-code Webflow et reproduction de mon
+              portfolio.
             </Paragraph>
           </div>
           <div>
             <div className='project--link'>
-              <a
-                href='https://github.com/ArthurSalle/nts-js-202103-p2-herbier'
-                target='_blank'
-                rel='noreferrer'
-                className='btn btn--link btn--link__effect'
-              >
-                GitHub <ArrowLink width='16px' fill='#184340' />
-              </a>
-              <a
-                href='https://magnoliafornantes.netlify.app/'
-                target='_blank'
-                rel='noreferrer'
-                className='btn btn--link btn--link__effect'
-              >
-                Live <ArrowLink width='16px' fill='#184340' />
-              </a>
+              <span className='btn btn--link btn--link__effect'>
+                GitHub <Cross width='16px' fill='#184340' />
+              </span>
+              <span className='btn btn--link btn--link__effect'>
+                Live <Cross width='16px' fill='#184340' />
+              </span>
             </div>
             <div className='project--link'>
-              <button className='project--tag'>ReactJS</button>
-              <button className='project--tag'>Leaflet</button>
-              <button className='project--tag'>FireBase</button>
+              <button className='project--tag'>Webflow</button>
             </div>
           </div>
         </div>
         <div className='project--img__wrapper'>
           <StaticImage
-            src='../../images/magnolia.png'
-            alt='fleur'
+            src='../../images/macbook.png'
+            alt='pizza'
             width={200}
             height={200}
             quality={100}
@@ -261,7 +194,7 @@ const ProjectSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ProjectSection;
+export default ProjectSection

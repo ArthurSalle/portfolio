@@ -86,13 +86,15 @@
       justify-content: unset;
     }
 
-    a {
+    a,
+    span {
       display: flex;
       gap: 8px;
       margin-right: 24px;
     }
 
-    a.disabled {
+    a.disabled,
+    span.disabled {
       pointer-events: none;
       cursor: default;
     }
