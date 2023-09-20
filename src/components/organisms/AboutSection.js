@@ -40,7 +40,7 @@ const AboutSection = () => {
           <div className='section--media'>
             <div className='section--img__wrapper'>
               <StaticImage
-                src='../../images/mac4.png'
+                src='../../images/code.png'
                 alt='macbook'
                 width={325}
                 height={402}
