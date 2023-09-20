@@ -15,7 +15,7 @@ const PersonalSection = () => {
                 J’apprécie les choses simples comme me balader en ville, en
                 fôret ou au bord de la mer. J'aime aussi le skate, le surf, les
                 tattoos, les chiens, la street food mais surtout les pizzas.
-                J'apprècie aussi les moments de détente, rien de tel qu'une
+                J'apprécie aussi les moments de détente, rien de tel qu'une
                 bonne session de Netflix & Chill par un temps pluvieux !
               </Paragraph>
             </div>

@@ -21,22 +21,18 @@ const Footer = () => {
         </div>
         <div className='footer--link'>
           <div className='footer--contact'>
-            <a
-              to='/#'
-              href='mailto:arthur.salle95@gmail.com?subject=Hello ! 👋🏼'
-            >
+            <a href='mailto:arthur.salle95@gmail.com?subject=Hello ! 👋'>
               <Mail width='21px' fill='#c9d1c1' />
               arthur.salle95@gmail.com
             </a>
             <a
-              to='/#'
               target='blank'
               href='https://www.linkedin.com/in/arthur-sall%C3%A9/'
             >
               <LinkedIn width='21px' fill='#c9d1c1' />
               LinkedIn
             </a>
-            <a to='/#' target='blank' href='https://github.com/ArthurSalle'>
+            <a target='blank' href='https://github.com/ArthurSalle'>
               <GitHub width='21px' fill='#c9d1c1' /> GitHub
             </a>
             <a to='/#' target='blank' href='https://twitter.com/SaltyArthur'>
@@ -48,7 +44,7 @@ const Footer = () => {
             <Paragraph className='h4'>Fabriqué avec</Paragraph>
             <Paragraph className='drop--color'>
               React, Gatsby, Sass et AnimeJs, font TT Norms by Ivan Gladkikh,
-              design réalisé avec Armand & Pierre Louis{' '}
+              photos by Unsplash, design réalisé avec Armand & Pierre Louis{' '}
               <span role='img' aria-label='heart'>
                 ❤️🔥
               </span>

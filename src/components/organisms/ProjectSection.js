@@ -36,10 +36,10 @@ const ProjectSection = () => {
             </div>
             <div className='project--link project--link-column'>
               <div>
-                <button className='project--tag'>VueJS</button>
+                <button className='project--tag'>Vue.js</button>
                 <button className='project--tag'>Vuetify</button>
                 <button className='project--tag'>Laravel</button>
-                <button className='project--tag'>SQL</button>
+                <button className='project--tag'>PostgreSQL</button>
               </div>
               <div>
                 <button className='project--tag'>React</button>
