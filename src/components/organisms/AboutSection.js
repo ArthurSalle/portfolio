@@ -16,26 +16,35 @@ const AboutSection = () => {
               Après une initiation au développement en suivant quelques tutos
               sur HTML et CSS, j’ai tout de suite accroché. J’ai adoré obtenir
               un rendu concret en si peu de temps et en tapant quelques lignes
-              de code. Depuis, le CSS from-scratch est sûrement l’un des défis
-              que je préfère et je suis en train de découvrir comment le rendre
-              dynamique avec des bibliothèques d’animations telles que AnimeJs
-              et GSAP.
+              de code. Depuis, le développement me passionne et mon quotidien
+              est rythmé par la création de web apps.
             </Paragraph>
             <Paragraph className='section--drop'>
-              Lors d’un projet client en collaboration avec un développeur
-              freelance, j’ai découvert la JAMStack et ce fut une grande
-              révélation. Créer un site fonctionnel au design parfait et
-              optimisé fut une expérience qui a conforté mon choix de m’orienter
-              vers le développement frontend. Depuis, je ne cesse de renforcer
-              mes bases en HTML, CSS, JS et React, tout en testant de nouvelles
-              technos comme TypeScript, NextJs, Gatsby, des headless CMS et
-              Tailwind.
+              Pendant près de deux ans, j'ai travaillé en tant que développeur
+              web fullstack, utilisant principalement Vue.js, Laravel et
+              PostgreSQL pour mes projets. Ce que j'apprécie particulièrement
+              dans ce rôle, c'est la polyvalence qu'il offre. En effet, j'ai la
+              possibilité de travailler sur tous les aspects d'une application,
+              que ce soit le développement côté frontend, backend ou la gestion
+              de la base de données. Cette diversité me permet de m'impliquer
+              pleinement dans chaque phase du projet et de les faire évoluer en
+              fonction des besoins.
             </Paragraph>
-            <Paragraph>
-              Plus tard, j’aimerais toucher à la 3D avec ThreeJs et le WebGl
-              pour pousser mes connaissances dans tout ce qui touche aux
-              animations et aux interactions créatives !
+
+            <Paragraph className='section--drop'>
+              J'apprécie particulièrement travailler de manière autonome sur le
+              développement de nouvelles fonctionnalités. Cela me permet
+              d'explorer de nouvelles idées et d'améliorer en permanence les
+              applications sur lesquelles je travaille. En parallèle, j'aime
+              prendre en charge l'intégralité du processus, de la création
+              d'APIs à la conception d'une interface utilisateur conviviale.
+              Cette approche globale me permet de concevoir des solutions
+              complètes et de répondre de manière créative et efficace aux
+              besoins changeants.
             </Paragraph>
+
+            <Paragraph className='section--drop'></Paragraph>
+            <Paragraph></Paragraph>
           </div>
           <div className='section--media'>
             <div className='section--img__wrapper'>
@@ -63,7 +72,7 @@ const AboutSection = () => {
             </Paragraph>
             <Paragraph className='section--drop'>
               J’ai eu la chance de m’initier au développement grâce à mon frère,
-              dev frontend freelance, qui m’a fait découvrir les fondamentaux du
+              développeur frontend, qui m’a fait découvrir les fondamentaux du
               web. Ensuite, j’ai approfondi le développement web lors d’une
               immersion à ses côtés. Il a su me faire découvrir les différentes
               facettes du métier et depuis cette période je ne cesse de m’y
