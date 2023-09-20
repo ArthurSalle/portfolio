@@ -1,21 +1,21 @@
-import React from 'react';
-import anime from 'animejs';
-import Title from '../atoms/Title';
-import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
+import React from 'react'
+import anime from 'animejs'
+import Title from '../atoms/Title'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Header = () => {
   const handleClick = (e) => {
-    e.preventDefault();
-    const link = new URL(e.target.href);
-    const targetElement = document.querySelector(link.hash);
-    const targetPosition = targetElement.getBoundingClientRect();
-    const targetY = targetPosition.y;
-    const scrollPosition = targetY + window.scrollY;
+    e.preventDefault()
+    const link = new URL(e.target.href)
+    const targetElement = document.querySelector(link.hash)
+    const targetPosition = targetElement.getBoundingClientRect()
+    const targetY = targetPosition.y
+    const scrollPosition = targetY + window.scrollY
 
     let animeObjPosition = {
       newY: window.scrollY,
-    };
+    }
 
     anime({
       targets: animeObjPosition,
@@ -24,16 +24,16 @@ const Header = () => {
       duration: 2000,
       round: 1,
       update: function () {
-        window.scrollTo(0, animeObjPosition.newY);
+        window.scrollTo(0, animeObjPosition.newY)
       },
-    });
-  };
+    })
+  }
 
   return (
     <header className='header container '>
       <div className='header--title'>
         <Title type='h1'>
-          Hello, moi c’est <strong>Arthur</strong>, développeur frontend à la
+          Hello, moi c’est <strong>Arthur</strong>, développeur fullstack à la
           recherche d'un <strong>CDI</strong> basé à <strong>Nantes</strong> ou
           en <strong>remote</strong>.
         </Title>
@@ -75,7 +75,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
