@@ -16,7 +16,8 @@ const PersonalSection = () => {
                 fôret ou au bord de la mer. J'aime aussi le skate, le surf, les
                 tattoos, les chiens, la street food mais surtout les pizzas.
                 J'apprécie aussi les moments de détente, rien de tel qu'une
-                bonne session de Netflix & Chill par un temps pluvieux !
+                bonne session de Netflix & Chill ou de jeux vidéos par un temps
+                pluvieux !
               </Paragraph>
             </div>
           </div>

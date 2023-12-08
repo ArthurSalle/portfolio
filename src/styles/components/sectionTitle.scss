@@ -8,6 +8,13 @@
   }
 }
 
+.section--title_custom {
+  margin-bottom: 64px;
+  @include media('<tablet') {
+    margin-bottom: 0;
+  }
+}
+
 .section--line {
   margin-top: 32px;
   height: 2px;
