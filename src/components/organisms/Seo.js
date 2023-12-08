@@ -1,6 +1,6 @@
 import React from 'react'
 import favicon from '../../images/favicon.ico'
-import ogImg from '../../images/og.png'
+import ogImg from '../../images/og-front.png'
 import { Helmet } from 'react-helmet'
 
 const Seo = () => {
@@ -10,8 +10,7 @@ const Seo = () => {
 
   const title = 'Arthur Sallé | Portfolio'
 
-  const description =
-    'Arthur Sallé, développeur fullstack, basé à Nantes et formé à la Wild Code School.'
+  const description = 'Arthur Sallé, développeur frontend, basé à Nantes.'
 
   const url = 'https://arthur-salle.fr/'
 
