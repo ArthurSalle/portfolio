@@ -33,13 +33,7 @@ const Header = () => {
     <header className="header container ">
       <div className="header--title">
         <Title type="h1">
-          Hello, moi c’est <strong>Arthur</strong>, développeur freelance React & Typescript,{" "}
-          <strong>
-            <a href="https://www.linkedin.com/company/undefined-hq/" target="_blank">
-              @undefined_HQ
-            </a>
-          </strong>
-          .
+          Hello, moi c’est <strong>Arthur</strong>, développeur freelance React & Typescript.
         </Title>
       </div>
       <div className="header--menu">
